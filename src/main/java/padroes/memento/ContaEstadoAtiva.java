@@ -1,8 +1,6 @@
 package padroes.memento;
 
-/**
- * Estado: Conta Ativa — operações liberadas normalmente.
- */
+
 public class ContaEstadoAtiva implements ContaEstado {
 
     private ContaEstadoAtiva() {}

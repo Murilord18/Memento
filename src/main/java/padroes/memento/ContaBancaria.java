@@ -3,17 +3,7 @@ package padroes.memento;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Originator do padrão Memento.
- *
- * Representa uma Conta Bancária cujo histórico de estados é preservado,
- * permitindo restaurar qualquer estado anterior (undo/rollback).
- *
- * Analogia com o projeto do professor:
- *   Aluno          → ContaBancaria
- *   AlunoEstado    → ContaEstado
- *   memento (List) → historicoEstados (List)
- */
+
 public class ContaBancaria {
 
     private String numeroConta;

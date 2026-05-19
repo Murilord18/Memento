@@ -1,8 +1,6 @@
 package padroes.memento;
 
-/**
- * Estado: Conta Negativa — saldo abaixo de zero (cheque especial ativado).
- */
+
 public class ContaEstadoNegativa implements ContaEstado {
 
     private ContaEstadoNegativa() {}

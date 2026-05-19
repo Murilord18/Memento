@@ -1,8 +1,6 @@
 package padroes.memento;
 
-/**
- * Estado: Conta Encerrada — conta encerrada pelo titular ou pelo banco.
- */
+
 public class ContaEstadoEncerrada implements ContaEstado {
 
     private ContaEstadoEncerrada() {}

@@ -1,8 +1,6 @@
 package padroes.memento;
 
-/**
- * Estado: Conta Suspensa — suspensa temporariamente por análise de fraude.
- */
+
 public class ContaEstadoSuspensa implements ContaEstado {
 
     private ContaEstadoSuspensa() {}

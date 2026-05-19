@@ -1,8 +1,6 @@
 package padroes.memento;
 
-/**
- * Estado: Conta Bloqueada — movimentações suspensas.
- */
+
 public class ContaEstadoBloqueada implements ContaEstado {
 
     private ContaEstadoBloqueada() {}

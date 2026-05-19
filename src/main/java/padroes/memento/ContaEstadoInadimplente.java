@@ -1,8 +1,6 @@
 package padroes.memento;
 
-/**
- * Estado: Conta Inadimplente — cliente com débitos em atraso.
- */
+
 public class ContaEstadoInadimplente implements ContaEstado {
 
     private ContaEstadoInadimplente() {}
